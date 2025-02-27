@@ -1,3 +1,19 @@
+# project folders
+data/*
+!data/.gitkeep
+!data/opt_transport.xlsx
+!data/merge
+data/merge/*
+!data/merge/.gitkeep
+
+results/*
+!results/.gitkeep
+!results/merge
+results/merge/*
+!results/merge/.gitkeep
+
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
