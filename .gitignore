@@ -12,6 +12,9 @@ results/*
 results/merge/*
 !results/merge/.gitkeep
 
+src/gr_adj.py
+src/paths.py
+
 .vscode/
 
 # Byte-compiled / optimized / DLL files
