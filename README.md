@@ -23,6 +23,8 @@ The jupyter notebook [example.ipynb](example.ipynb) contains a basic tutorial wh
 4. Create and solve bases mergers.
 
 ## Experiments
-- The python script [enumeration.py](src/enumeration.py) executes the exhaustive enumeration of all 4140 possible bases mergers given by the 8 bases found in the optimal transport problem case study and saves the results to the output file [merger_enumeration.csv](merger_enumeration.csv).
+- The python script [exhaustive_enumeration.py](src/exhaustive_enumeration.py) executes the exhaustive enumeration of all 4140 possible bases mergers given by the 8 bases found in the optimal transport problem case study and saves the results to the output file [merger_enumeration.csv](merger_enumeration.csv).
 - The python script [com.py](src/com.py) computes the CoM of all 4140 possible bases mergers given by the 8 bases found in the optimal transport problem case study and prints the results to the standard console output.
-- The python script [combinatorics.py](src/combinatorics.py) compares the number of possible set partitions for different set sizes and strategies, i.e., Bell Number, Greedy, and Greedy with adjacency.
+- The python script [exhaustive_strategy.py](src/exhaustive_strategy.py) implements and executes the Exhaustive strategy for merging bases.
+- The python script [greedy_strategy.py](src/greedy_strategy.py) implements and executes the Greedy strategy for merging bases.
+- The python script [greedy_adj_strategy.py](src/greedy_adj_strategy.py) implements and executes the Greedy & Adjacent strategy for merging bases.
